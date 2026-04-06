@@ -65,6 +65,14 @@ h6 {
   visibility: visible;
   opacity: 1;
 }
+.skill-category {
+  margin-bottom: 20px;
+}
+
+.skill-category h5 {
+  font-weight: 600;
+  margin-bottom: 5px;
+}
 
 /*--------------------------------------------------------------
 # Preloader
@@ -1147,7 +1155,31 @@ section {
     transform: rotate(360deg);
   }
 }
+@media (max-width: 768px) {
+  .row {
+    display: flex;
+    flex-direction: column;   
+    align-items: center;      
+    gap: 20px;
+    margin-left: 0 !important;
+  }
 
+  .row > div {
+    width: 90% !important;    
+    margin-left: 0 !important;
+  }
+
+  .email p {
+    white-space: normal;      
+    word-break: break-word;   
+    text-align: center;
+  }
+
+  .email {
+    justify-content: center;
+    text-align: center;
+  }
+}
 /*--------------------------------------------------------------
 # Footer
 --------------------------------------------------------------*/
